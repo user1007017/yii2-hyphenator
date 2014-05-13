@@ -17,7 +17,7 @@ class HyphenatorAsset extends AssetBundle
 {
     public $sourcePath;
     public $js = [
-        'Hyphenator.js',
+        'js/Hyphenator.js',
     ];
 
     public function init()
