@@ -8,7 +8,7 @@
 namespace drenty\hyphenator;
 
 use yii\web\AssetBundle;
-use yii\web\Json;
+use yii\helpers\Json;
 
 /**
  * @author Qiang Xue <qiang.xue@gmail.com>
