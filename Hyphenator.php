@@ -34,7 +34,7 @@ class Hyphenator extends \yii\base\Widget
     public function registerAssets()
     {
         $view = $this->getView();
-        HyphenatorAsset::register($view)->language = $language;
+        HyphenatorAsset::register($view)->language = $this->language;
         $options = Json::encode($this->pluginOptions);
         $js  = "Hyphenator.config($options);";
         $js .= 'Hyphenator.run();';
