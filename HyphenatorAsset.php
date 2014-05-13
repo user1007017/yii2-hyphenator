@@ -15,8 +15,13 @@ use yii\web\AssetBundle;
  */
 class HyphenatorAsset extends AssetBundle
 {
-    public $sourcePath = __DIR__ . '/../assets';
+    public $sourcePath;
     public $js = [
         'Hyphenator.js',
     ];
+
+    public function init()
+    {
+    	$this->sourcePath = __DIR__ . '/../assets';
+    }
 }
