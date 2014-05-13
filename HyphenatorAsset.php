@@ -15,6 +15,7 @@ use yii\web\AssetBundle;
  */
 class HyphenatorAsset extends AssetBundle
 {
+	public $language;
     public $sourcePath;
     public $js = [
         'js/Hyphenator.js',
@@ -23,5 +24,12 @@ class HyphenatorAsset extends AssetBundle
     public function init()
     {
     	$this->sourcePath = __DIR__ . '/assets';
+    }
+
+    public function registerAssetFiles($view)
+    {
+        $language = $this->language ? $this->language : Yii::$app->language;
+        $this->js[] = 'js/patterns/' . $language . '.js';
+        parent::registerAssetFiles($view);
     }
 }

@@ -16,6 +16,8 @@ use yii\helpers\Json;
  */
 class Hyphenator extends \yii\base\Widget
 {
+    public $language = 'en-us';
+
     /**
      * @var array widget plugin options
      */
@@ -32,7 +34,7 @@ class Hyphenator extends \yii\base\Widget
     public function registerAssets()
     {
         $view = $this->getView();
-        HyphenatorAsset::register($view);
+        HyphenatorAsset::register($view)->language = $language;
         $options = Json::encode($this->pluginOptions);
         $js  = "Hyphenator.config($options);";
         $js .= 'Hyphenator.run();';
