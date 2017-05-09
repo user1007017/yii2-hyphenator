@@ -28,7 +28,7 @@ Hyphenation can be stopped by adding class="donthyphenate".
 
 ## GitHub 
 
-https://github.com/user1007007/yii2-hyphenator
+https://github.com/user1007017/yii2-hyphenator
 
 ## To come 
 
