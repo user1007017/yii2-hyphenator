@@ -1,12 +1,12 @@
 {
-    "name": "drenty/yii2-hyphenator",
+    "name": "user1007017/yii2-hyphenator",
     "description": "Yii2 extension that provides client-side hyphenation of HTML documents",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "authors": [
         {
-            "name": "David Renty",
-            "email": "david.renty@gmail.com"
+            "name": "Yoda",
+            "email": "user1007017/yii2-hyphenator"
         }
     ],
     "minimum-stability": "dev",
@@ -23,7 +23,7 @@
     },
     "autoload": {
        "psr-4": {
-           "drenty\\hyphenator\\": ""
+           "user1007017\\hyphenator\\": ""
        }
     }
 }
