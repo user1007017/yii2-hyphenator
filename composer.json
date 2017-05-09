@@ -1,5 +1,5 @@
 {
-    "name": "user1007017/yii2-hyphenator",
+    "name": "drenty/yii2-hyphenator",
     "description": "Yii2 extension that provides client-side hyphenation of HTML documents",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
@@ -10,13 +10,20 @@
         }
     ],
     "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/user1007017/yii2-hyphenator"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "drenty/yii2-hyphenator": "dev-bugfix"
     },
     "autoload": {
        "psr-4": {
-           "user1007017\\hyphenator\\": ""
+           "drenty\\hyphenator\\": ""
        }
     }
 }
