@@ -12,6 +12,9 @@ Install this extension via composer:
         composer require user1007017/yii2-hyphenator
 
 Register the widget in your view (do not echo it):
+
+          use user1007017/yii2-hyphenator
+
           Hyphenator::widget([
                 'language' => 'en',
                 'pluginOptions' => [
