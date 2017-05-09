@@ -37,3 +37,5 @@ https://github.com/drenty/yii2-hyphenator
 ## To come 
 
 Support for Hyphenator_Loader.js
+
+Test
