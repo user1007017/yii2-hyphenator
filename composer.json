@@ -10,16 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/user1007017/yii2-hyphenator"
-        }
-    ],
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "*",
-        "drenty/yii2-hyphenator": "dev-bugfix"
+        "yiisoft/yii2": "*"
     },
     "autoload": {
        "psr-4": {
