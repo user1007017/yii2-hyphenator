@@ -8,9 +8,10 @@ Yii2
 ## Usage 
 
 Install this extension via composer:
-composer require drenty/yii2-hyphenator
 
-        Register the widget in your view (do not echo it):
+        composer require user1007017/yii2-hyphenator
+
+Register the widget in your view (do not echo it):
           Hyphenator::widget([
                 'language' => 'en',
                 'pluginOptions' => [
