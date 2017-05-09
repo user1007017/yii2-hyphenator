@@ -22,8 +22,10 @@ Register the widget in your view (do not echo it):
                 ]
           ]);
 
-Add class="hyphenate" to the elements whose text should be hyphenated (children do inherit this setting). Hyphenation can be stopped by adding class="donthyphenate".
-GitHub 
+Add class="hyphenate" to the elements whose text should be hyphenated (children do inherit this setting). 
+Hyphenation can be stopped by adding class="donthyphenate".
+
+## GitHub 
 
 https://github.com/drenty/yii2-hyphenator
 
