@@ -9,18 +9,19 @@ Yii2
 
 Install this extension via composer:
 
-        composer require user1007017/yii2-hyphenator
+    composer require user1007017/yii2-hyphenator
 
 Register the widget in your view (do not echo it):
+    
+    use user1007017\hyphenator\Hyphenator;
+   
+    Hyphenator::widget([
+        'language' => 'de',
+        'pluginOptions' => [
+            'minwordlength' => 4
+        ]
+    ]);
 
-          use user1007017/yii2-hyphenator
-
-          Hyphenator::widget([
-                'language' => 'en',
-                'pluginOptions' => [
-                   'minwordlength' => 4
-                ]
-          ]);
 
 Add class="hyphenate" to the elements whose text should be hyphenated (children do inherit this setting). 
 Hyphenation can be stopped by adding class="donthyphenate".
