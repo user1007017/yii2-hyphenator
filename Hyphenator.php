@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace user1007007\hyphenator;
+namespace user1007017\hyphenator;
 
 use yii\web\AssetBundle;
 use yii\helpers\Json;
