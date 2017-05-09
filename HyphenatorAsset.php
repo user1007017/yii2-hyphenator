@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace drenty\hyphenator;
+namespace user1007007\hyphenator;
 
 use yii\web\AssetBundle;
 
