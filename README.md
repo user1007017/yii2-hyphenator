@@ -1,6 +1,7 @@
 
 A simple wrapper for Hyphenator.js. It automatically hyphenates texts.
 
+
 ## Requirements 
 
 Yii2
@@ -29,6 +30,9 @@ Hyphenation can be stopped by adding class="donthyphenate".
 ## GitHub 
 
 https://github.com/user1007017/yii2-hyphenator
+
+Fork of 
+https://github.com/drenty/yii2-hyphenator
 
 ## To come 
 
